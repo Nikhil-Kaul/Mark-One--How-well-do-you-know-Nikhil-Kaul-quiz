@@ -28,7 +28,7 @@ var questionFour = {
 }
 
 var questionFive = {
-  question: "5)Nikhil has graduated from which college?\n a)Christ University \n b)St. Joseph's College(Autonomous) \n c)Jain University \n d)Not graduated \n",
+  question: "5)Nikhil has graduated from which college(2020)?\n a)Christ University \n b)St. Joseph's College(Autonomous) \n c)Jain University \n d)Not graduated \n",
   answer: "b"
 }
 
@@ -56,7 +56,7 @@ function play(question, answer){
     console.log("Correct!\n");
     Score++;
   }else{
-    console.log("Wrong!\n");
+    console.log("Wrong!\nCorrect answer is "+"'"+answer+"'");
   }
 }
 
